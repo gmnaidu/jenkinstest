@@ -23,6 +23,7 @@ public class JenkinsflowApplication {
 
 	public static void main(String[] args) {
 		loggerr.info("Application executed...");
+		loggerr.info("Application executed with second commit...");
 		SpringApplication.run(JenkinsflowApplication.class, args);
 	}
 
