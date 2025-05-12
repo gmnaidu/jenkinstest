@@ -11,17 +11,18 @@ import jakarta.annotation.PostConstruct;
 public class JenkinsflowApplication {
 
      
-    Logger logger = LoggerFactory.getLogger(JenkinsflowApplication.class);
+    static Logger loggerr = LoggerFactory.getLogger(JenkinsflowApplication.class);
 
 
 	@PostConstruct
 	public void init(){
 
-		System.out.println("Post constructed called..... ");
+		loggerr.info("Application started...");
 	}
 
 
 	public static void main(String[] args) {
+		loggerr.info("Application executed...");
 		SpringApplication.run(JenkinsflowApplication.class, args);
 	}
 
