@@ -13,7 +13,7 @@ class JenkinsflowApplicationTests {
 	Logger loggerr = LoggerFactory.getLogger(JenkinsflowApplicationTests.class);
 
 	@Test
-	void contextLoads() {
+	 contextLoads() {
 		loggerr.info("Testcases Executing...");
 		loggerr.info("Testcases executed with second commit...");
 		assertTrue(true, "true");
