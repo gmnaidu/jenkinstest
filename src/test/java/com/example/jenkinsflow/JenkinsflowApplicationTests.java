@@ -15,6 +15,8 @@ class JenkinsflowApplicationTests {
 	@Test
 	void contextLoads() {
 		loggerr.info("Testcases Executing...");
+		loggerr.info("Testcases executed with second commit...");
+		loggerr.info("Testcases executed with third commit...");
 		assertTrue(true, "true");
 	}
 
